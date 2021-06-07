@@ -1,6 +1,8 @@
 # DNAtoBinaryJs
 Quickly convert a DNA sequence into binary code and vice versa. Javascript. Includes a simple demo.
 
+![Screenshot](demo.jpg)
+
 # Usage
 Include the javascript file in the header.
 ```
