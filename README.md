@@ -19,7 +19,7 @@ var str = '011011001110010111000111';
 var r = binary2dna( str );
 ```
 
-![Screenshot](demo.jpg)
-
 # Demo
 Simply run index.html in a browser for a simple working version.
+
+![Screenshot](demo.jpg)
