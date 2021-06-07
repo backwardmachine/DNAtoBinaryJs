@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src="d2b.js"></script>
+<style type="text/css">
+#d2b__dna
+{
+  display : block;
+  width   : 400px;
+  height  : 200px;
+}
+</style>
+<title>Convert DNA to binary in Javascript</title>
+<body>
+<textarea type="text" name="d2b__dna" id="d2b__dna" style="">CGTAAATATGG</textarea>
+<input type="button" name="d2b__button" id="d2b__button" value="Convert to Binary">
+<script language="javascript">
+var mode = 0;
+document.getElementById( "d2b__button" ).addEventListener( "click", __d2b__click__button );
+function __d2b__click__button()
+{
+  var elem   = document.getElementById( "d2b__dna" );
+  var text   = elem.value;
+  var fn     = mode ? binary2dna : dna2binary;
+  var result = fn( text );
+  elem.value = result;
+  mode = mode ? 0 : 1;
+  document.getElementById( "d2b__button" ).value =
+    mode ? "Convert to DNA sequence"
+         : "Convert to Binary";
+}
+</script>
+</body>
+</html>
