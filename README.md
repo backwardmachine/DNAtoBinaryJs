@@ -1,7 +1,6 @@
 # DNAtoBinaryJs
 Quickly convert a DNA sequence into binary code and vice versa. Javascript. Includes a simple demo.
 
-![Screenshot](demo.jpg)
 # Usage
 Include the javascript file in the header.
 ```html
@@ -19,6 +18,8 @@ to convert from binary to DNA
 var str = '011011001110010111000111';
 var r = binary2dna( str );
 ```
+
+![Screenshot](demo.jpg)
 
 # Demo
 Simply run index.html in a browser for a simple working version.
